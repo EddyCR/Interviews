@@ -84,7 +84,7 @@
   - What is the difference between `call stack` and `task queue`?
 - Explain the difference between _mutable_ and _immutable_ objects.
   - What is an example of an immutable object in JavaScript?
-- Vanilla Methods, ask for functionality suing the fruits array
+- Vanilla Methods, ask for functionality of the list bellow using the fruits array
 ```javascript
    var fruits = ["Banana", "Orange", "Apple", "Mango"];
    splice, slice, .map
