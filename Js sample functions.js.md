@@ -28,6 +28,29 @@ function f001(){
     console.log(a);
 };
 
+-------------------------------------
+/*
+Nivel: intermedio
+
+Pregunta1: cual es la diferencia en funcionamiento al comparar con === vs ==
+=== usa igualdad estricta. Los valores no son convertidos a otro valor antes de hacer la comparacion. Si los valores son de diferente typo, entonces no son iguales. 
+Si los valores tienen el mismo typo y el mismo valor, entonces son considerados iguales
+== compara que los valores sean iguales despues de haberlos convertido a un typo comun.
+*/
+
+var a = true;
+var b = 'true';
+var c = 1;
+var d = 0;
+var e = "0";
+
+console.log( a == b); // false 'true' is converted to NaN, true is converted to 1, por eso es falso
+console.log( a === b); // false
+console.log( a == c); // true
+console.log( a === c); // false
+console.log( d == e); // true
+console.log( d === e); // false
+
 --------------------------------------
 /*
 Nivel: intermedio - avanzado
