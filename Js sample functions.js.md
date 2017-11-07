@@ -1,4 +1,29 @@
 ```javascript
+
+/*
+Nivel: basico
+
+Pregunta1: como contarias el numero de comas en 'hola, me llamo, juan, perez' con una for loop
+Esta pregunta es para ver si el intrevistado sabe hacer for loops
+
+*/
+
+f00();
+
+function f00(){
+    var a = 'hola, me llamo, juan, perez';
+    var count = 0;
+    
+    for(var i = 0; i < a.length; i++){
+        if(a[i] === ','){
+            count++;
+        }
+    } 
+    console.log(count);
+};
+
+----------------------------------------
+
 /*
 Nivel: intermedio
 
