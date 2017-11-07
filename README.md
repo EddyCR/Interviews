@@ -3,7 +3,7 @@
 ## HTML Section
 - What does a `doctype` do?
 - Why is it generally a good idea to position CSS `<link>s` between `<head></head>` and JS `<script>`s just before `</body>`? 
-- What are `data-` attributes good fo `(HTML5)`?
+- What are `data-` attributes good for `(HTML5)`?
 - Describe the difference between a `cookie`, `sessionStorage` and `localStorage`?
 - What is progressive rendering?
 
