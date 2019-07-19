@@ -23,6 +23,7 @@
   ```javascript
   condition ? expr1 : expr2
   ```
+- Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?
 - What is `"use strict";`? what are the advantages and disadvantages to using it?
 - Explain the difference between _synchronous_ and _asynchronous_ functions.
 - What's the difference between `.call` and `.apply`?
